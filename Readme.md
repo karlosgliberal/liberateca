@@ -1,6 +1,8 @@
 Node.js Liberateca client
 =========================
 Liberateca API client for Node.JS
+Web: http://liberateca.net/
+http://liberateca.net/api/v1/
 
 Description
 -----------
@@ -19,13 +21,14 @@ Instalation
 -----------
 > TODO
 
+
 Usuage
 ------
 ``` js
   var Liberateca = require('../lib/liberateca').Liberateca
 
-  var datos = new Liberateca('/api/v1/series', function(error, data){
-    console.log(data);
+  var datos = new Liberateca('/api/v1/series', 'usuario', 'pass', function(error, data){
+      console.log(data);
   });
 ```
 
