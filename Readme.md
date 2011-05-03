@@ -4,7 +4,7 @@ Liberateca API client for Node.JS
 
 Description
 -----------
-
+First alpha, alpha relsease :)
 
 Dependencies
 ------------
