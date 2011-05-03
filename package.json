@@ -1,0 +1,9 @@
+{
+  "name": "liberateca",
+  "description": "Liberateca JSON API library",
+  "version": "0.0.1",
+  "author": "karlos gliberal <karlos@investic.net>",
+  "repository" : {"type": "git" , "url": "http://github.com/karlosgliberal/liberateca.git" },
+  "main": "./",
+  "engines": { "node": ">= 0.4.0" }
+}
