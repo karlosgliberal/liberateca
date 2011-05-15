@@ -4,9 +4,16 @@ Liberateca API client for Node.JS
 Web: http://liberateca.net/
 http://liberateca.net/api/v1/
 
+Changelog
+---------
+-2011-05-15 incorporando el acceso a la api https (ahora obligado)
+-2011-05-03 primer commit y prueba de concepto
+
 Description
 -----------
 First alpha, alpha relsease :)
+Cambio en el codigo, para poder implamentar mejor los metodos y añadido el ejemplo de asincrona. 
+Ahora solo esta el metodo -> getSeries que devuelve todas las series
 
 Dependencies
 ------------
@@ -25,10 +32,10 @@ Instalation
 Usuage
 ------
 ``` js
-  var Liberateca = require('../lib/liberateca').Liberateca
+  var liberateca = require('../lib/liberateca');
 
-  var datos = new Liberateca('/api/v1/series', 'usuario', 'pass', function(error, data){
-      console.log(data);
+  var datos = liberateca.getSeries('user','password', function(resultados){
+    console.log(resultados);
   });
 ```
 
