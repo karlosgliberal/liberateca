@@ -1,6 +1,7 @@
-var Liberateca = require('../lib/liberateca').Liberateca
+var liberateca = require('../lib/liberateca');
 
-var datos = new Liberateca('/api/v1/series', 'usuario', 'password', function(error, data){
-    console.log(data);
+var datos = liberateca.getSeries('user','password', function(resultados){
+  console.log(resultados);
 });
+
 
