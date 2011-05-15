@@ -6,8 +6,8 @@ http://liberateca.net/api/v1/
 
 Changelog
 ---------
--2011-05-15 incorporando el acceso a la api https (ahora obligado)
--2011-05-03 primer commit y prueba de concepto
+* 2011-05-15 incorporando el acceso a la api https (ahora obligado)
+* 2011-05-03 primer commit y prueba de concepto
 
 Description
 -----------
